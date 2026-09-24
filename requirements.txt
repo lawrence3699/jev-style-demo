@@ -1,0 +1,12 @@
+# Gradio itself is installed by the Space from README.md (sdk_version: 6.28.0).
+# torch 2.13.0: the newest version ZeroGPU lists (2.8.0 to 2.13.0); the model runtime was tested with 2.14.0,
+# and this Space was tested locally with 2.13.0 + transformers 5.17.0 (Apple MPS, float32).
+# No flash-linear-attention / causal-conv1d: both are optional in transformers 5.17 and the Gated DeltaNet
+# layers fall back to the reference PyTorch path (slower, no custom CUDA build, same code the release was
+# checked with).
+torch==2.13.0
+transformers==5.17.0
+tokenizers==0.23.2
+numpy==2.5.3
+huggingface_hub==1.32.0
+spaces

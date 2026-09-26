@@ -219,7 +219,7 @@ th, th * { word-break: normal !important; overflow-wrap: normal !important; hyph
 HEADER = f"""# Jev-Style v3 Demo
 Jev-Style 0.8B Decision v3 answers typed questions about a state (text or JSON) with a calibrated probability for every option. Each tab turns those probabilities into an action with a few lines of code; the rule is shown with it.
 
-[jevstyle.com]({SITE}) (demo videos) · [model]({"https://huggingface.co/" + MODEL_REPO}) · [GGUF]({"https://huggingface.co/" + GGUF_REPO}) · [MLX]({"https://huggingface.co/" + MLX_REPO}) · Not affiliated with TypeSafe, Jev or Laya.
+[jevstyle.com]({SITE}) (demo videos) · [GitHub](https://github.com/lawrence3699/jev-style) (`pip install jev-style`) · [model]({"https://huggingface.co/" + MODEL_REPO}) · [GGUF]({"https://huggingface.co/" + GGUF_REPO}) · [MLX]({"https://huggingface.co/" + MLX_REPO}) · Not affiliated with TypeSafe, Jev or Laya.
 """
 
 with gr.Blocks(title="Jev-Style v3 Demo", analytics_enabled=False) as demo:

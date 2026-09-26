@@ -25,7 +25,7 @@ each tab the **action** line is plain code on those probabilities, with the rule
 
 Demo videos: [jevstyle.com](https://jevstyle.com). Other formats of the same model:
 [GGUF](https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3-GGUF),
-[MLX](https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3-MLX). Run it on your own machine: `pip install jev-style`
+[MLX](https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3-MLX). Run it on your own machine: `pip install "jev-style[torch]"` (`[mlx]` on Apple silicon)
 ([GitHub](https://github.com/lawrence3699/jev-style)).
 
 | Tab | What it does |
